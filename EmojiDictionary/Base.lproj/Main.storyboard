@@ -52,12 +52,32 @@
                     <view key="view" contentMode="scaleToFill" id="BPS-Md-MRJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8d-fU-UyM">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6n-DJ-VQt">
+                                <rect key="frame" x="103" y="349" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A6n-DJ-VQt" firstAttribute="centerX" secondItem="BPS-Md-MRJ" secondAttribute="centerX" id="aU1-EW-eMU"/>
+                            <constraint firstItem="A6n-DJ-VQt" firstAttribute="top" secondItem="s8d-fU-UyM" secondAttribute="bottom" constant="50" id="riT-o9-Dho"/>
+                            <constraint firstItem="s8d-fU-UyM" firstAttribute="top" secondItem="KHf-0t-d24" secondAttribute="bottom" constant="40" id="xpb-7S-OvY"/>
+                            <constraint firstItem="s8d-fU-UyM" firstAttribute="centerX" secondItem="BPS-Md-MRJ" secondAttribute="centerX" id="zS0-qG-EXx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jDo-aZ-Sku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="770" y="139"/>
+            <point key="canvasLocation" x="850" y="139"/>
         </scene>
     </scenes>
 </document>
